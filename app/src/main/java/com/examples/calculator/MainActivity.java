@@ -11,10 +11,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    //segunda prueba de repositorio
      private EditText txtN1;
      private EditText txtN2;
      private TextView txt;
-    private Button btn ;
+    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
