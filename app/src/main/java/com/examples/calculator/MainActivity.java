@@ -35,4 +35,12 @@ public class MainActivity extends AppCompatActivity {
         String result = String.valueOf(suma);
         txt.setText(result);
     }
+    public void resta(View igual) {
+
+        int valor1 = Integer.parseInt(txtN1.getText().toString());
+        int valor2 = Integer.parseInt(txtN2.getText().toString());
+        int suma = valor1 - valor2;
+        String result = String.valueOf(suma);
+        txt.setText(result);
+    }
 }
