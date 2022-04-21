@@ -27,7 +27,7 @@ public class operacionesTest  {
 
     @Test
     public void suma3() throws Exception {
-        assertEquals("7",mOperacion.suma(7,4));
+        assertEquals("11",mOperacion.suma(7,4));
     }
 
 
