@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ope = new operaciones();
         AppCenter.start(getApplication(), "e61d59eb-5062-4411-8afe-a7cc973e1f38",
                 Analytics.class, Crashes.class);
+        Analytics.trackEvent("My custom event");
 
     }
 
