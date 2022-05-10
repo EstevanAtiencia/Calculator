@@ -1,0 +1,10 @@
+# Distribute the app
+- task: AppCenterDistribute@3
+  inputs:
+    serverEndpoint: '8d412022829f12cbf9307ed6fae9cb60d17e165b'
+    appSlug: 'eeap1002-gmail.com/Demo2'
+    appFile: 'app/build/outputs/apk/debug/app-debug.apk' 
+    symbolsOption: 'Android'
+    releaseNotesOption: 'input'
+    releaseNotesInput: 'v1.'
+    destinationType: 'groups'
