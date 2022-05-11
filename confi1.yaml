@@ -1,4 +1,3 @@
----
 task: AppCenterDistribute@3
 inputs:  
     serverEndpoint: 'AppCenter'
