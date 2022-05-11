@@ -1,9 +1,6 @@
-Automobiles:
-
- Car:
-
-     Hyundai
-
-     Volkswagen
-
-     Ford
+---
+# Primer ejemplo de Playbook en Ansible
+- hosts: all
+  tasks:
+  - name: Hacer ping
+    ping:
