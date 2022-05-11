@@ -1,9 +1,10 @@
-cwlVersion: v1.0
-class: CommandLineTool
-baseCommand: echo
-inputs: # this key has an object value
-  example_flag: # so does this one
-    type: boolean
-    inputBinding: # and this one too
-      position: 1
-      prefix: -f
+# Distribute the app
+- task: AppCenterDistribute@3
+  inputs:
+    serverEndpoint: '8d412022829f12cbf9307ed6fae9cb60d17e165b'
+    appSlug: 'eeap1002-gmail.com/Demo2'
+    appFile: 'app/build/outputs/apk/debug/' 
+    symbolsOption: 'Android'
+    releaseNotesOption: 'input'
+    releaseNotesInput: 's'
+    destinationType: 'groups'
