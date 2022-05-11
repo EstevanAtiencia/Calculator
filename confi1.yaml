@@ -1,4 +1,4 @@
-- task: AppCenterDistribute@3
+ task: AppCenterDistribute@3
   inputs:
     serverEndpoint: 'T8d412022829f12cbf9307ed6fae9cb60d17e165b'
     appSlug: 'eeap1002-gmail.com/Demo2'
