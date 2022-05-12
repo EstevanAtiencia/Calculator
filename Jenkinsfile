@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clean') {
       steps {
-         chmod +x ./gradlew clean
+         sh './gradlew build'
       }
     }
   }
